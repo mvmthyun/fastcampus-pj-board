@@ -1,1 +1,1 @@
-# fastcampus-project-board
+# FastCampus-Project-Board
