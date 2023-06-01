@@ -1,4 +1,4 @@
-package fastcampus.projectboard.domain;
+package com.fastcampus.projectboard.domain;
 
 import java.time.LocalDateTime;
 
