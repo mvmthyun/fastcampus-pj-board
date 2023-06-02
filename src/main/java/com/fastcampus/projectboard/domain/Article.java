@@ -43,7 +43,7 @@ public class Article {
     @LastModifiedDate @Column(nullable = false) private LocalDateTime modifiedAt; // 수정일시
     @LastModifiedBy @Column(nullable = false, length = 100) private String modifiedBy; // 수정자
 
-    protected Article() {}
+    protected Article() {} // 생성자를 만들고, Article Entity를 불러올 때 필요한 변수를 받기 위한 작업
 
     private Article(String title, String content, String hashtag) {
         this.title = title;
